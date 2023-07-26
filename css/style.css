@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 :root{
-    --colorHeader:#000;
-    --colorFooter:#03022f;
+    --colorHeader:#0a0202;
+    --colorFooter:#3f36df;
     --fuente:'Roboto', sans-serif;
     --enlaces:#fff;
-    --enlaceSobre:#7d1f1f;
+    --enlaceSobre:#3f36df;
 }
 
 html{
@@ -81,7 +81,7 @@ nav > ul > li > a{
     display: flex;
     padding: 14px;
     color: var(--enlaces);
-    /* text-transform:capitalize; */
+    text-transform:capitalize;
     font-size: 14px;
     transition: all 300ms ease;
 }
@@ -95,7 +95,7 @@ nav > ul > li > a:hover{
 
 #selector{
     transform: scale(1.1);
-    background-color: #192162;
+    background-color: #12aef1;
 }
 
 /* sub menu */
@@ -103,7 +103,7 @@ nav ul li ul{
     display: flex;
     width: 200px;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #e0d5df;
     position: absolute;
     top:90px;
     left: -5px;
@@ -135,7 +135,7 @@ nav ul li ul:before{
 
 nav ul li ul li a{
     display: flex;
-    color: #7d1f1f;
+    color: #0a0101;
     padding: 6px 14px;
     margin-top: 5px;
     font-size: 1.2rem;
@@ -144,7 +144,7 @@ nav ul li ul li a{
 }
 
 nav ul li ul li a:hover{
-    background-color: #6f0202;
+    background-color: #040202;
     color: #fff;
     transform: scale(1.1);
     font-size: 1.1rem;
@@ -971,19 +971,19 @@ img{
     }
 
 
-    /* .container__slider{
+     .container__slider{
         width: 100%;
         margin-top: 75px;
         margin-bottom: 80px;
         
-    } */
+    } 
 
-    /* .title{
+    .title{
         width: 100%;
         margin-top: 393px;
         padding-top: 20px;
 
-    } */
+    } 
 
     .hero__description{
         display: block;
@@ -1061,7 +1061,7 @@ img{
         font-size: 1.5rem;
     }
 
-    /* .hero__wrapper{
+    .hero__wrapper{
         padding-top: 5%;
         margin-bottom: 1.5em;
     }
@@ -1070,7 +1070,7 @@ img{
         width: 50%;
         font-size: 1.6rem;
         line-height: 60px;
-    } */
+    } 
 
     .hero__action{
        bottom: -80px;
@@ -1088,17 +1088,17 @@ img{
         padding: 10px;
     }
 
-    /* .frontpage__links-description{
+    .frontpage__links-description{
         max-width: 260px;
         font-size: 1.1rem;
         color: #0c0c0c;       
        
-    } */
+    } 
 
-/*     
+   
     .links__main{       
         padding: 0;
-    } */
+    } 
 
     .cta__main{
         max-width: 1090px;
